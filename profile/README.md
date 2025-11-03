@@ -1,13 +1,148 @@
 # GuideAI
 
-Transform how your team uses AI agents like Claude Code with smart analysis, coaching, and measurable skill growth: 
+> **Understand and improve how your team uses AI coding agents.**
 
-Try it here:  https://guideai.dev 
+GuideAI tracks your AI coding sessions (Claude Code, Gemini, Copilot, Codex, OpenCode) and turns them into actionable insights. See what's working, where teams struggle, and how to get more value from AI tools.
 
-<img width="1444" height="946" alt="Screenshot 2025-10-02 at 11 11 13" src="https://github.com/user-attachments/assets/0ef886b1-444e-458f-b74f-8c117df3e93c" />
-<img width="1439" height="895" alt="Screenshot 2025-10-02 at 11 11 25" src="https://github.com/user-attachments/assets/bb233e94-2e2f-4b5a-89c1-43a302673edf" />
-<img width="1443" height="891" alt="Screenshot 2025-10-02 at 11 11 38" src="https://github.com/user-attachments/assets/28d5c54b-f778-4c63-b39a-784d76f4199e" />
-<img width="1439" height="900" alt="Screenshot 2025-10-02 at 11 11 46" src="https://github.com/user-attachments/assets/bf1394e4-063c-4025-ad39-cf8e1cc25319" />
-<img width="1440" height="887" alt="Screenshot 2025-10-02 at 11 11 59" src="https://github.com/user-attachments/assets/97c5509a-e987-4254-b62a-1387d2aa66e7" />
-<img width="1440" height="949" alt="Screenshot 2025-10-02 at 11 13 13" src="https://github.com/user-attachments/assets/96a05d06-e7a9-4c1f-b595-7b89ee421346" />
-<img width="1452" height="979" alt="Screenshot 2025-10-02 at 11 14 05" src="https://github.com/user-attachments/assets/678d835c-b69b-48e6-acaa-8d50d47b98a2" />
+## What It Does
+
+**For Individual Developers:**
+- 📊 Track your AI usage patterns and productivity
+- 💰 Monitor token costs across sessions
+- 🎯 Identify what prompts and workflows work best
+
+**For Team Leaders:**
+- 👥 See AI adoption and effectiveness across your team
+- 📈 Measure ROI on AI tool investments
+- 🚀 Find training opportunities and best practices
+
+**For Organizations:**
+- 🔒 Self-hosted option for data privacy
+- 🔄 Automatic session capture with desktop app
+- 📱 Web dashboard for analytics and insights
+
+## 🚀 Open Source
+
+GuideAI embraces open source for core client components:
+
+[![Desktop](https://img.shields.io/badge/desktop-open--source-blue)](https://github.com/guideai-dev/desktop)
+[![Types](https://img.shields.io/badge/types-open--source-blue)](https://github.com/guideai-dev/types)
+[![Session Processing](https://img.shields.io/badge/session--processing-open--source-blue)](https://github.com/guideai-dev/session-processing)
+[![CLI](https://img.shields.io/badge/cli-open--source-blue)](https://github.com/guideai-dev/cli)
+
+### Open Source Components
+
+- **[@guideai-dev/desktop](https://github.com/guideai-dev/desktop)** - Cross-platform desktop menubar app
+- **[@guideai-dev/types](https://github.com/guideai-dev/types)** - Shared TypeScript types
+- **[@guideai-dev/session-processing](https://github.com/guideai-dev/session-processing)** - Session processing and AI models
+- **[@guideai-dev/cli](https://github.com/guideai-dev/cli)** - Command-line interface
+
+### Contributing
+
+We welcome contributions to our open source components! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+**Note**: This repository is a private monorepo. Changes are automatically synced to public repositories. To contribute, please fork and submit PRs to the individual public repositories.
+
+## How It Works
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                      YOUR COMPUTER                          │
+│                                                             │
+│    AI Coding Tools          Desktop App                     │
+│  (Claude, Gemini, etc.) ──► (watches sessions) ───┐         │
+│                                                   │         │
+└───────────────────────────────────────────────────┼─────────┘
+                                                    │
+                                          Sync Mode Selection:
+                                          • No Sync (local only)
+                                          • Metrics Only
+                                          • Full Transcript
+                                                    │
+┌───────────────────────────────────────────────────┼─────────┐
+│                      GUIDEAI SERVER               ▼         │
+│                                                             │
+│      Process ──► Analyze ──► Dashboard                      │
+│    (parse data) (AI insights) (visualize)                   │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Three Simple Steps:**
+1. **Install** the desktop app—it runs in your menubar
+2. **Choose** your sync mode (local-only, metrics, or full)
+3. **View** insights on the web dashboard
+
+The desktop app automatically watches your AI coding sessions and uploads them based on your privacy preferences.
+
+## Supported AI Tools
+
+- ✅ **Claude Code** - Anthropic's coding assistant
+- ✅ **Gemini Code** - Google's AI coding tool
+- ✅ **GitHub Copilot** - GitHub's AI pair programmer
+- ✅ **Codex** - AI coding assistant
+- ✅ **OpenCode** - Open source AI coding tool
+
+**One format for all** - Our desktop app automatically converts each provider's format into a unified structure, so you get consistent analytics regardless of which tools you use.
+
+## Quick Start
+
+### 🎯 For End Users
+
+**Download the Desktop App:**
+- 🍎 [**macOS**](https://install.guideai.dev/desktop/latest/GuideAI-Desktop-macOS.dmg) - Universal binary (Intel & Apple Silicon)
+- 🪟 [**Windows**](https://install.guideai.dev/desktop/latest/GuideAI-Desktop-windows.msi) - Windows 10+ installer
+- 🐧 [**Linux**](https://install.guideai.dev/desktop/latest/GuideAI-Desktop-linux.deb) - .deb
+
+**Then just:**
+1. Install and launch the app
+2. Sign in with GitHub
+3. Start coding with your AI tools
+
+That's it! GuideAI automatically detects and tracks your sessions.
+
+### 👨‍💻 For Developers
+
+**Explore the packages:**
+- [Desktop App](apps/desktop/) - Rust + React menubar application
+- [CLI Tool](packages/cli/) - Command-line interface
+- [Session Processing](packages/session-processing/) - Analytics engine
+- [Shared Types](packages/types/) - TypeScript definitions
+
+## License
+
+- **Open Source Components**: MIT License
+- **Server Application**: Proprietary (contact us for licensing)
+
+## Links
+
+- **Website**: https://guideai.dev
+- **Documentation**: https://docs.guideai.dev
+- **GitHub Organization**: https://github.com/guideai-dev
+- **Support**: support@guideai.dev
+- **Security**: security@guideai.dev
+
+## Project Structure
+
+```
+├── apps/
+│   ├── desktop/               # Tauri menubar app (Rust + React)
+│   ├── server/                # API + Web UI (Cloudflare Workers)
+│   ├── docs/                  # Documentation site (Astro)
+│   └── www/                   # Marketing website (Astro)
+├── packages/
+│   ├── types/                 # Shared TypeScript types
+│   ├── session-processing/    # Session parser & analytics
+│   └── cli/                   # Command-line interface
+```
+
+Each component has its own README with setup instructions. See [CLAUDE.md](CLAUDE.md) for the complete technical overview.
+
+## Community & Support
+
+- 💬 [**GitHub Discussions**](https://github.com/orgs/guideai-dev/discussions) - Ask questions, share ideas
+- 🐛 [**Issues**](https://github.com/guideai-dev/desktop/issues) - Report bugs, request features
+- 📧 **Email**: support@guideai.dev
+- 🔒 **Security**: security@guideai.dev
+- 🌐 **Website**: https://www.guideai.dev
+- 📚 **Docs**: https://docs.guideai.dev
