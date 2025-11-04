@@ -4,6 +4,8 @@
 
 GuideAI tracks your AI coding sessions (Claude Code, Gemini, Copilot, Codex, OpenCode) and turns them into actionable insights. See what's working, where teams struggle, and how to get more value from AI tools.
 
+<img width="3414" height="1916" alt="image" src="https://github.com/user-attachments/assets/037351f4-2b3f-47b0-baf8-38c39a43e29a" />
+
 ## What It Does
 
 **For Individual Developers:**
@@ -17,7 +19,7 @@ GuideAI tracks your AI coding sessions (Claude Code, Gemini, Copilot, Codex, Ope
 - 🚀 Find training opportunities and best practices
 
 **For Organizations:**
-- 🔒 Self-hosted option for data privacy
+- 🔒 Self-hosted option for data privacy (contact us)
 - 🔄 Automatic session capture with desktop app
 - 📱 Web dashboard for analytics and insights
 
@@ -35,7 +37,7 @@ GuideAI embraces open source for core client components:
 - **[@guideai-dev/desktop](https://github.com/guideai-dev/desktop)** - Cross-platform desktop menubar app
 - **[@guideai-dev/types](https://github.com/guideai-dev/types)** - Shared TypeScript types
 - **[@guideai-dev/session-processing](https://github.com/guideai-dev/session-processing)** - Session processing and AI models
-- **[@guideai-dev/cli](https://github.com/guideai-dev/cli)** - Command-line interface
+- **[@guideai-dev/cli](https://github.com/guideai-dev/cli)** - Command-line interface (not currently used but may be in future)
 
 ### Contributing
 
@@ -69,7 +71,7 @@ We welcome contributions to our open source components! Please see [CONTRIBUTING
 ```
 
 **Three Simple Steps:**
-1. **Install** the desktop app—it runs in your menubar
+1. **Install** the desktop app
 2. **Choose** your sync mode (local-only, metrics, or full)
 3. **View** insights on the web dashboard
 
@@ -101,14 +103,6 @@ The desktop app automatically watches your AI coding sessions and uploads them b
 
 That's it! GuideAI automatically detects and tracks your sessions.
 
-### 👨‍💻 For Developers
-
-**Explore the packages:**
-- [Desktop App](apps/desktop/) - Rust + React menubar application
-- [CLI Tool](packages/cli/) - Command-line interface
-- [Session Processing](packages/session-processing/) - Analytics engine
-- [Shared Types](packages/types/) - TypeScript definitions
-
 ## License
 
 - **Open Source Components**: MIT License
@@ -121,22 +115,6 @@ That's it! GuideAI automatically detects and tracks your sessions.
 - **GitHub Organization**: https://github.com/guideai-dev
 - **Support**: support@guideai.dev
 - **Security**: security@guideai.dev
-
-## Project Structure
-
-```
-├── apps/
-│   ├── desktop/               # Tauri menubar app (Rust + React)
-│   ├── server/                # API + Web UI (Cloudflare Workers)
-│   ├── docs/                  # Documentation site (Astro)
-│   └── www/                   # Marketing website (Astro)
-├── packages/
-│   ├── types/                 # Shared TypeScript types
-│   ├── session-processing/    # Session parser & analytics
-│   └── cli/                   # Command-line interface
-```
-
-Each component has its own README with setup instructions. See [CLAUDE.md](CLAUDE.md) for the complete technical overview.
 
 ## Community & Support
 
