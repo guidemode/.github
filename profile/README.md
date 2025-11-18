@@ -1,8 +1,8 @@
-# GuideAI
+# GuideMode
 
 > **Understand and improve how your team uses AI coding agents.**
 
-GuideAI tracks your AI coding sessions (Claude Code, Gemini, Copilot, Codex, OpenCode) and turns them into actionable insights. See what's working, where teams struggle, and how to get more value from AI tools.
+GuideMode tracks your AI coding sessions (Claude Code, Gemini, Copilot, Codex, OpenCode) and turns them into actionable insights. See what's working, where teams struggle, and how to get more value from AI tools.
 
 <img width="3414" height="1916" alt="image" src="https://github.com/user-attachments/assets/037351f4-2b3f-47b0-baf8-38c39a43e29a" />
 
@@ -25,7 +25,7 @@ GuideAI tracks your AI coding sessions (Claude Code, Gemini, Copilot, Codex, Ope
 
 ## 🚀 Open Source
 
-GuideAI embraces open source for core client components:
+GuideMode embraces open source for core client components:
 
 [![Desktop](https://img.shields.io/badge/desktop-open--source-blue)](https://github.com/guideai-dev/desktop)
 [![Types](https://img.shields.io/badge/types-open--source-blue)](https://github.com/guideai-dev/types)
@@ -92,16 +92,16 @@ The desktop app automatically watches your AI coding sessions and uploads them b
 ### 🎯 For End Users
 
 **Download the Desktop App:**
-- 🍎 [**macOS**](https://install.guideai.dev/desktop/latest/GuideAI-Desktop-macOS.dmg) - Universal binary (Intel & Apple Silicon)
-- 🪟 [**Windows**](https://install.guideai.dev/desktop/latest/GuideAI-Desktop-windows.msi) - Windows 10+ installer
-- 🐧 [**Linux**](https://install.guideai.dev/desktop/latest/GuideAI-Desktop-linux.deb) - .deb
+- 🍎 [**macOS**](https://install.guideai.dev/desktop/latest/GuideMode-Desktop-macOS.dmg) - Universal binary (Intel & Apple Silicon)
+- 🪟 [**Windows**](https://install.guideai.dev/desktop/latest/GuideMode-Desktop-windows.msi) - Windows 10+ installer
+- 🐧 [**Linux**](https://install.guideai.dev/desktop/latest/GuideMode-Desktop-linux.deb) - .deb
 
 **Then just:**
 1. Install and launch the app
 2. Sign in with GitHub
 3. Start coding with your AI tools
 
-That's it! GuideAI automatically detects and tracks your sessions.
+That's it! GuideMode automatically detects and tracks your sessions.
 
 ## License
 
