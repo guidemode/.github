@@ -27,17 +27,17 @@ GuideMode tracks your AI coding sessions (Claude Code, Gemini, Copilot, Codex, O
 
 GuideMode embraces open source for core client components:
 
-[![Desktop](https://img.shields.io/badge/desktop-open--source-blue)](https://github.com/guideai-dev/desktop)
-[![Types](https://img.shields.io/badge/types-open--source-blue)](https://github.com/guideai-dev/types)
-[![Session Processing](https://img.shields.io/badge/session--processing-open--source-blue)](https://github.com/guideai-dev/session-processing)
-[![CLI](https://img.shields.io/badge/cli-open--source-blue)](https://github.com/guideai-dev/cli)
+[![Desktop](https://img.shields.io/badge/desktop-open--source-blue)](https://github.com/guidemode/desktop)
+[![Types](https://img.shields.io/badge/types-open--source-blue)](https://github.com/guidemode/types)
+[![Session Processing](https://img.shields.io/badge/session--processing-open--source-blue)](https://github.com/guidemode/session-processing)
+[![CLI](https://img.shields.io/badge/cli-open--source-blue)](https://github.com/guidemode/cli)
 
 ### Open Source Components
 
-- **[@guideai-dev/desktop](https://github.com/guideai-dev/desktop)** - Cross-platform desktop menubar app
-- **[@guideai-dev/types](https://github.com/guideai-dev/types)** - Shared TypeScript types
-- **[@guideai-dev/session-processing](https://github.com/guideai-dev/session-processing)** - Session processing and AI models
-- **[@guideai-dev/cli](https://github.com/guideai-dev/cli)** - Command-line interface (not currently used but may be in future)
+- **[@guidemode/desktop](https://github.com/guidemode/desktop)** - Cross-platform desktop menubar app
+- **[@guidemode/types](https://github.com/guidemode/types)** - Shared TypeScript types
+- **[@guidemode/session-processing](https://github.com/guidemode/session-processing)** - Session processing and AI models
+- **[@guidemode/cli](https://github.com/guidemode/cli)** - Command-line interface (not currently used but may be in future)
 
 ### Contributing
 
@@ -92,9 +92,9 @@ The desktop app automatically watches your AI coding sessions and uploads them b
 ### 🎯 For End Users
 
 **Download the Desktop App:**
-- 🍎 [**macOS**](https://install.guideai.dev/desktop/latest/GuideMode-Desktop-macOS.dmg) - Universal binary (Intel & Apple Silicon)
-- 🪟 [**Windows**](https://install.guideai.dev/desktop/latest/GuideMode-Desktop-windows.msi) - Windows 10+ installer
-- 🐧 [**Linux**](https://install.guideai.dev/desktop/latest/GuideMode-Desktop-linux.deb) - .deb
+- 🍎 [**macOS**](https://install.guidemode.dev/desktop/latest/GuideMode-Desktop-macOS.dmg) - Universal binary (Intel & Apple Silicon)
+- 🪟 [**Windows**](https://install.guidemode.dev/desktop/latest/GuideMode-Desktop-windows.msi) - Windows 10+ installer
+- 🐧 [**Linux**](https://install.guidemode.dev/desktop/latest/GuideMode-Desktop-linux.deb) - .deb
 
 **Then just:**
 1. Install and launch the app
@@ -110,17 +110,17 @@ That's it! GuideMode automatically detects and tracks your sessions.
 
 ## Links
 
-- **Website**: https://guideai.dev
-- **Documentation**: https://docs.guideai.dev
-- **GitHub Organization**: https://github.com/guideai-dev
-- **Support**: support@guideai.dev
-- **Security**: security@guideai.dev
+- **Website**: https://guidemode.dev
+- **Documentation**: https://docs.guidemode.dev
+- **GitHub Organization**: https://github.com/guidemode
+- **Support**: support@guidemode.dev
+- **Security**: security@guidemode.dev
 
 ## Community & Support
 
-- 💬 [**GitHub Discussions**](https://github.com/orgs/guideai-dev/discussions) - Ask questions, share ideas
-- 🐛 [**Issues**](https://github.com/guideai-dev/desktop/issues) - Report bugs, request features
-- 📧 **Email**: support@guideai.dev
-- 🔒 **Security**: security@guideai.dev
-- 🌐 **Website**: https://www.guideai.dev
-- 📚 **Docs**: https://docs.guideai.dev
+- 💬 [**GitHub Discussions**](https://github.com/orgs/guidemode/discussions) - Ask questions, share ideas
+- 🐛 [**Issues**](https://github.com/guidemode/desktop/issues) - Report bugs, request features
+- 📧 **Email**: support@guidemode.dev
+- 🔒 **Security**: security@guidemode.dev
+- 🌐 **Website**: https://www.guidemode.dev
+- 📚 **Docs**: https://docs.guidemode.dev
