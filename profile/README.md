@@ -171,7 +171,7 @@ npm install -g @guidemode/cli
 ## License
 
 - **Open Source Components**: MIT License
-- **Server Application**: Proprietary (contact us for enterprise licensing)
+- **Server Application**: Self hosting options are available
 
 ---
 
