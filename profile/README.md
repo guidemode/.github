@@ -112,9 +112,9 @@ GuideMode connects your entire development stack:
 
 GuideMode's client-side components are MIT licensed and open source:
 
-| Package | Description | npm | License |
-|---------|-------------|-----|---------|
-| [@guidemode/desktop](https://github.com/guidemode/desktop) | Cross-platform Tauri menubar app | [![npm](https://img.shields.io/npm/v/@guidemode/desktop)](https://www.npmjs.com/package/@guidemode/desktop) | [![MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/guidemode/desktop/blob/main/LICENSE) |
+| Package | Description | Download | License |
+|---------|-------------|----------|---------|
+| [@guidemode/desktop](https://github.com/guidemode/desktop) | Cross-platform Tauri menubar app | [![Download](https://img.shields.io/badge/download-desktop-green)](https://www.guidemode.dev/ai-analytics/) | [![MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/guidemode/desktop/blob/main/LICENSE) |
 | [@guidemode/cli](https://github.com/guidemode/cli) | Command-line interface | [![npm](https://img.shields.io/npm/v/@guidemode/cli)](https://www.npmjs.com/package/@guidemode/cli) | [![MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/guidemode/cli/blob/main/LICENSE) |
 | [@guidemode/types](https://github.com/guidemode/types) | Shared TypeScript types | [![npm](https://img.shields.io/npm/v/@guidemode/types)](https://www.npmjs.com/package/@guidemode/types) | [![MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/guidemode/types/blob/main/LICENSE) |
 | [@guidemode/session-processing](https://github.com/guidemode/session-processing) | Session parsing & analytics | [![npm](https://img.shields.io/npm/v/@guidemode/session-processing)](https://www.npmjs.com/package/@guidemode/session-processing) | [![MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/guidemode/session-processing/blob/main/LICENSE) |
