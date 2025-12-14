@@ -1,126 +1,180 @@
 # GuideMode
 
-> **Understand and improve how your team uses AI coding agents.**
+<p align="center">
+  <img src="./images/logo-colored.png" alt="GuideMode Logo" width="120" />
+</p>
 
-GuideMode tracks your AI coding sessions (Claude Code, Gemini, Copilot, Codex, OpenCode) and turns them into actionable insights. See what's working, where teams struggle, and how to get more value from AI tools.
+<h3 align="center"><strong>DX² — Measure Discovery and Delivery</strong></h3>
 
-<img width="3414" height="1916" alt="image" src="https://github.com/user-attachments/assets/037351f4-2b3f-47b0-baf8-38c39a43e29a" />
+<p align="center">
+The only platform measuring both Discovery and Delivery.<br />
+Track your complete team journey from research validation to production deployment.
+</p>
 
-## What It Does
+<p align="center">
+  <strong>220+ Dimensions</strong> · <strong>300+ Measures</strong> · <strong>5 AI Providers</strong> · <strong>DORA Metrics</strong>
+</p>
 
-**For Individual Developers:**
-- 📊 Track your AI usage patterns and productivity
-- 💰 Monitor token costs across sessions
-- 🎯 Identify what prompts and workflows work best
+<p align="center">
+  <a href="https://guidemode.dev">Website</a> ·
+  <a href="https://app.guidemode.dev">App</a> ·
+  <a href="https://docs.guidemode.dev">Docs</a>
+</p>
 
-**For Team Leaders:**
-- 👥 See AI adoption and effectiveness across your team
-- 📈 Measure ROI on AI tool investments
-- 🚀 Find training opportunities and best practices
+---
 
-**For Organizations:**
-- 🔒 Self-hosted option for data privacy (contact us)
-- 🔄 Automatic session capture with desktop app
-- 📱 Web dashboard for analytics and insights
+<p align="center">
+  <img src="./images/home_page_new.png" alt="GuideMode Dashboard" width="800" />
+</p>
 
-## 🚀 Open Source
+## What is GuideMode?
 
-GuideMode embraces open source for core client components:
+Most engineering analytics platforms only measure **delivery** — what you ship. But that's only half the story. What about the research, validation, and discovery that happens before code is written?
 
-[![Desktop](https://img.shields.io/badge/desktop-open--source-blue)](https://github.com/guidemode/desktop)
-[![Types](https://img.shields.io/badge/types-open--source-blue)](https://github.com/guidemode/types)
-[![Session Processing](https://img.shields.io/badge/session--processing-open--source-blue)](https://github.com/guidemode/session-processing)
-[![CLI](https://img.shields.io/badge/cli-open--source-blue)](https://github.com/guidemode/cli)
+**GuideMode** is a **DX² (Discovery × Delivery)** platform that measures the complete product development lifecycle:
 
-### Open Source Components
+- **Discovery**: Research validation, customer feedback loops, experiment frequency, discovery cycle time
+- **Delivery**: DORA metrics, pull request analytics, deployment frequency, cycle time
+- **AI Intelligence**: Track AI coding sessions across 5 providers with 119 session-level metrics
 
-- **[@guidemode/desktop](https://github.com/guidemode/desktop)** - Cross-platform desktop menubar app
-- **[@guidemode/types](https://github.com/guidemode/types)** - Shared TypeScript types
-- **[@guidemode/session-processing](https://github.com/guidemode/session-processing)** - Session processing and AI models
-- **[@guidemode/cli](https://github.com/guidemode/cli)** - Command-line interface (not currently used but may be in future)
+Neither matters in isolation — fast delivery of the wrong thing is waste, and great discovery without delivery means ideas never ship. GuideMode gives you visibility into both.
+
+---
+
+## Key Features
+
+### Discovery Analytics
+
+<img src="./images/guidemode_discovery.png" alt="Discovery Analytics" width="700" />
+
+Track your product discovery process:
+- Research validation and experiment tracking
+- Customer touchpoint frequency
+- Discovery-to-feature conversion rates
+- SPACE surveys for team sentiment
+
+### Delivery Metrics
+
+<img src="./images/guidemode_delivery.png" alt="Delivery Metrics" width="700" />
+
+Complete DORA metrics and flow analytics:
+- Deployment frequency, lead time, change failure rate, MTTR
+- 48 pull request measures
+- 53 issue tracking measures
+- Industry benchmarking
+
+### AI Session Intelligence
+
+<img src="./images/sessions.png" alt="AI Sessions" width="700" />
+
+The only platform tracking individual AI coding sessions:
+- **Claude Code** — Full plan mode, todo tracking, tool usage
+- **Cursor** — Conversation tracking, code suggestions
+- **GitHub Copilot** — Code completions, acceptance rates
+- **Gemini Code Assist** — Tool usage, code generation
+- **OpenCode** — Session monitoring, effectiveness metrics
+
+119 session-level metrics including conversation patterns, git operations, and productivity indicators.
+
+### Team Targets
+
+<img src="./images/team_targets.png" alt="Team Targets" width="700" />
+
+Set and track team KPIs:
+- Target any of 300+ measures
+- Daily, weekly, monthly, or quarterly tracking
+- AI-powered target recommendations
+- Real-time progress indicators
+
+### Giulia — AI Dashboard Assistant
+
+<img src="./images/giulia.png" alt="Giulia AI Assistant" width="700" />
+
+Create analytics dashboards using natural language. Ask questions like *"Show me the correlation between lead time and developer happiness"* and Giulia generates a complete dashboard.
+
+---
+
+## Integrations
+
+GuideMode connects your entire development stack:
+
+| Integration | Capabilities |
+|-------------|--------------|
+| **GitHub** | Organizations, teams, repos, PRs, issues, deployments, DORA metrics |
+| **Jira** | Teams, projects, issues, real-time webhooks |
+| **Linear** | Workspaces, teams, projects, auto-configured webhooks |
+| **Notion** | Flexible database mapping for work tracking |
+| **CLI** | Create issues and deployments from terminal or CI/CD |
+
+---
+
+## Open Source
+
+GuideMode's client-side components are MIT licensed and open source:
+
+| Package | Description | npm | License |
+|---------|-------------|-----|---------|
+| [@guidemode/desktop](https://github.com/guidemode/desktop) | Cross-platform Tauri menubar app | [![npm](https://img.shields.io/npm/v/@guidemode/desktop)](https://www.npmjs.com/package/@guidemode/desktop) | [![MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/guidemode/desktop/blob/main/LICENSE) |
+| [@guidemode/cli](https://github.com/guidemode/cli) | Command-line interface | [![npm](https://img.shields.io/npm/v/@guidemode/cli)](https://www.npmjs.com/package/@guidemode/cli) | [![MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/guidemode/cli/blob/main/LICENSE) |
+| [@guidemode/types](https://github.com/guidemode/types) | Shared TypeScript types | [![npm](https://img.shields.io/npm/v/@guidemode/types)](https://www.npmjs.com/package/@guidemode/types) | [![MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/guidemode/types/blob/main/LICENSE) |
+| [@guidemode/session-processing](https://github.com/guidemode/session-processing) | Session parsing & analytics | [![npm](https://img.shields.io/npm/v/@guidemode/session-processing)](https://www.npmjs.com/package/@guidemode/session-processing) | [![MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/guidemode/session-processing/blob/main/LICENSE) |
 
 ### Contributing
 
-We welcome contributions to our open source components! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome contributions to our open source packages! Fork and submit PRs to the individual repositories above. See each repo's CONTRIBUTING.md for guidelines.
 
-**Note**: This repository is a private monorepo. Changes are automatically synced to public repositories. To contribute, please fork and submit PRs to the individual public repositories.
+---
 
-## How It Works
+## Getting Started
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                      YOUR COMPUTER                          │
-│                                                             │
-│    AI Coding Tools          Desktop App                     │
-│  (Claude, Gemini, etc.) ──► (watches sessions) ───┐         │
-│                                                   │         │
-└───────────────────────────────────────────────────┼─────────┘
-                                                    │
-                                          Sync Mode Selection:
-                                          • No Sync (local only)
-                                          • Metrics Only
-                                          • Full Transcript
-                                                    │
-┌───────────────────────────────────────────────────┼─────────┐
-│                      GUIDEAI SERVER               ▼         │
-│                                                             │
-│      Process ──► Analyze ──► Dashboard                      │
-│    (parse data) (AI insights) (visualize)                   │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+**Three ways to use GuideMode:**
+
+### 1. Web Platform
+Visit [app.guidemode.dev](https://app.guidemode.dev) to get started with the full analytics platform.
+
+### 2. Desktop App (Free)
+Download the menubar app for automatic AI session tracking:
+
+- [**macOS**](https://install.guidemode.dev/desktop/latest/GuideMode-Desktop-macOS.dmg) — Universal binary (Intel & Apple Silicon)
+- [**Windows**](https://install.guidemode.dev/desktop/latest/GuideMode-Desktop-windows.msi) — Windows 10+
+- [**Linux**](https://install.guidemode.dev/desktop/latest/GuideMode-Desktop-linux.deb) — .deb package
+
+### 3. CLI
+```bash
+npm install -g @guidemode/cli
 ```
 
-**Three Simple Steps:**
-1. **Install** the desktop app
-2. **Choose** your sync mode (local-only, metrics, or full)
-3. **View** insights on the web dashboard
+---
 
-The desktop app automatically watches your AI coding sessions and uploads them based on your privacy preferences.
+## Tech Stack
 
-## Supported AI Tools
+- **Frontend**: TypeScript, React, Tailwind CSS
+- **Backend**: TypeScript, Hono, Cloudflare Workers
+- **Desktop**: Rust, Tauri, React
+- **Database**: PostgreSQL (Neon)
+- **Analytics**: 19 cubes, 220+ dimensions, 300+ measures
 
-- ✅ **Claude Code** - Anthropic's coding assistant
-- ✅ **Gemini Code** - Google's AI coding tool
-- ✅ **GitHub Copilot** - GitHub's AI pair programmer
-- ✅ **Codex** - AI coding assistant
-- ✅ **OpenCode** - Open source AI coding tool
+---
 
-**One format for all** - Our desktop app automatically converts each provider's format into a unified structure, so you get consistent analytics regardless of which tools you use.
+## Resources
 
-## Quick Start
+| | |
+|---|---|
+| Website | [guidemode.dev](https://guidemode.dev) |
+| App | [app.guidemode.dev](https://app.guidemode.dev) |
+| Documentation | [docs.guidemode.dev](https://docs.guidemode.dev) |
+| Support | support@guidemode.dev |
+| Security | security@guidemode.dev |
 
-### 🎯 For End Users
-
-**Download the Desktop App:**
-- 🍎 [**macOS**](https://install.guidemode.dev/desktop/latest/GuideMode-Desktop-macOS.dmg) - Universal binary (Intel & Apple Silicon)
-- 🪟 [**Windows**](https://install.guidemode.dev/desktop/latest/GuideMode-Desktop-windows.msi) - Windows 10+ installer
-- 🐧 [**Linux**](https://install.guidemode.dev/desktop/latest/GuideMode-Desktop-linux.deb) - .deb
-
-**Then just:**
-1. Install and launch the app
-2. Sign in with GitHub
-3. Start coding with your AI tools
-
-That's it! GuideMode automatically detects and tracks your sessions.
+---
 
 ## License
 
 - **Open Source Components**: MIT License
-- **Server Application**: Proprietary (contact us for licensing)
+- **Server Application**: Proprietary (contact us for enterprise licensing)
 
-## Links
+---
 
-- **Website**: https://guidemode.dev
-- **Documentation**: https://docs.guidemode.dev
-- **GitHub Organization**: https://github.com/guidemode
-- **Support**: support@guidemode.dev
-- **Security**: security@guidemode.dev
-
-## Community & Support
-
-- 💬 [**GitHub Discussions**](https://github.com/orgs/guidemode/discussions) - Ask questions, share ideas
-- 🐛 [**Issues**](https://github.com/guidemode/desktop/issues) - Report bugs, request features
-- 📧 **Email**: support@guidemode.dev
-- 🔒 **Security**: security@guidemode.dev
-- 🌐 **Website**: https://www.guidemode.dev
-- 📚 **Docs**: https://docs.guidemode.dev
+<p align="center">
+  <strong>GuideMode</strong> — Measure what matters, from discovery to delivery.
+</p>
